@@ -38,7 +38,7 @@ export default function About() {
                         <img 
                             className="w-52 relative shadow-lg shadow-primary_1 mb-10 sm:w-96 lg:mb-0 2xl:w-w108 screen3xl:w-w120" 
                             src={pic2} 
-                            alt="Kavin Sashantha"
+                            alt="Thilan Theekshana"
                         />
                     </div>
 
