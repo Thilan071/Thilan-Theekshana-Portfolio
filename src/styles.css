@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Francois+One&family=Lalezar&family=Righteous&family=Secular+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+
+.nav-buttons {
+    @apply justify-center items-center hidden w-14 sm:flex md:w-40 sm:w-28 xl:w-32 screen3xl:w-60;
+}
+
+.nav-hdn {
+    @apply hidden sm:invisible md:invisible lg:invisible xl:invisible sm:block
+}
+
+.skill-icons {
+    @apply w-12 m-2 sm:w-16 md:w-24 md:m-5 lg:w-28 2xl:w-36 2xl:my-6 hover:transition hover:duration-300 hover:scale-125 xl:mx-20
+}
+
+.skill-icons-div {
+    @apply flex items-center justify-center p-1
+}
+
+.about-details-box {
+    @apply bg-secondary-100 p-3 rounded-md border-l-4 border-primary_1 mb-5 sm:mx-2
+}
+
+.about-details-box-title {
+    @apply text-primary_1 text-base 2xl:text-lg screen3xl:text-2xl screen3xl:h-12
+}
+
+.about-details-box-detail {
+    @apply text-secondary-200 text-base 2xl:text-lg screen3xl:text-2xl screen3xl:h-12
+}
+
+.whatido-card {
+    @apply sm:w-1/2 min-h-72 flex flex-col bg-secondary-100 justify-center text-center items-center p-5 border border-primary_1 rounded-lg max-w-w108 2xl:min-h-80 screen3xl:h-96 2xl:max-w-w120
+}
+
+.whatido-card-title {
+    @apply text-white pb-5 text-xl h-full md:text-xl lg:text-2xl 2xl:text-3xl screen3xl:text-4xl
+}
+
+.whatido-card-content {
+    @apply text-secondary-200 flex items-center lg:text-2xl screen3xl:text-3xl
+}
+
+.education-card {
+    @apply bg-secondary-100 p-2 mb-2 mx-2 w-80 sm:w-w108 lg:w-w120 xl:p-5 bg-secondary-100 p-2 mb-2 w-80 sm:w-w108 lg:w-w120 xl:p-5 bg-secondary-100 p-2 mb-2 w-80 sm:w-w108 lg:w-w120 xl:p-5 bg-secondary-100 p-2 mb-2 w-80 sm:w-w108 lg:w-w120 xl:p-5 bg-secondary-100 p-2 mb-2 w-80 sm:w-w108 lg:w-w120 xl:p-5
+}
+
+.education-card-title {
+    @apply text-white pb-3 lg:text-xl 2xl:text-2xl text-white pb-3 lg:text-xl 2xl:text-2xl text-white pb-3 lg:text-xl 2xl:text-2xl text-white pb-3 lg:text-xl 2xl:text-2xl text-white pb-3 lg:text-xl 2xl:text-2xl screen3xl:text-3xl
+}
+
+.education-card-p {
+    @apply text-sm lg:text-lg 2xl:text-xl screen3xl:text-2xl
+}
+
+.achievements-num {
+    @apply text-3xl font-bold pb-2 md:text-4xl lg:text-5xl 2xl:text-6xl 2xl:pb-5 screen3xl:text-8xl screen3xl:pb-12
+}
+
+.achievements-text {
+    @apply text-base text-center md:text-xl lg:text-2xl 2xl:text-3xl screen3xl:text-5xl
+}
+
+.achievements-div {
+    @apply flex flex-col justify-center items-center
+}
+
+.social-media-icon {
+    @apply w-9 mx-2 lg:w-12 xl:w-14 2xl:w-16 screen3xl:w-20
+}
+
+@media screen and (max-width: 768px) {
+    .maain {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .maain:nth-child(2n) {
+        padding-left: 30px;
+        display: grid;
+        grid-template-areas: "b a" ;
+    }
+}
+
+.maain {
+    height: 100%;
+    display: grid;
+    grid-template-areas: "a b" ;
+}
+
+.img-area {
+    grid-area: a;
+}
+
+.text-area {
+    grid-area: b;
+}
+
+.slick-dots {
+    /*bottom: 0 !important;*/
+    padding-bottom: 30px !important;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #D9C5A6 !important;
+}
+
+.feedback-slider {
+    display: flex !important;
+}
+
+
+
