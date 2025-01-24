@@ -65,7 +65,7 @@ export default function Projects() {
             className={`font-bold text-xs px-2 border-primary_1 rounded-full p-2 focus:ease-in duration-300 md:text-xl md:py-3 ${activeTab === 'uiux' ? 'bg-primary_1 text-primary_2' : 'bg-transparent text-primary_1'}`}
             onClick={() => setActiveTab('uiux')}
           >
-            UI/UX Design
+            UI/UX Design & Flutter Development
           </button>
           <button 
             className={`font-bold text-xs px-2 border-primary_1 rounded-full p-2 focus:ease-in duration-300 md:text-xl md:py-3 ${activeTab === 'frontend' ? 'bg-primary_1 text-primary_2' : 'bg-transparent text-primary_1'}`}
@@ -81,7 +81,7 @@ export default function Projects() {
             <AllProjectLists
               img1={AgroConnect}
               img2={Farmer}
-              titleName="UI/UX Design - The AgroConnect app bridges the gap between farmers and buyers while providing essential tools for farming success."
+              titleName="Flutter Mobile App - The AgroConnect app bridges the gap between farmers and buyers while providing essential tools for farming success."
               workName="AgroConnect for Farmers"
               paragraph="AgroConnect is an app designed for farmers, offering easy access to weather updates, crop price trends, farming tips, and an e-learning platform. It features a user-friendly interface with offline access, multi-language support, and a marketplace for direct farmer-to-buyer transactions. The app helps farmers improve productivity, stay informed, and connect with experts and buyers."
               galleryId="gallery1"
@@ -89,7 +89,7 @@ export default function Projects() {
             <AllProjectLists
               img1={publicTranport}
               img2={poorTransport}
-              titleName="UI/UX Design - Public Transport Tracker app can significantly improve daily commuting and address the challenges of unreliable schedules and overcrowding "
+              titleName="Flutter Mobile App - Public Transport Tracker app can significantly improve daily commuting and address the challenges of unreliable schedules and overcrowding "
               workName="Public Transport Tracker"
               paragraph="Designed a user-friendly interface for a Public Transport Tracker app, focusing on intuitive navigation and visually appealing elements to enhance the commuting experience. The UI streamlines real-time tracking, route planning, and schedule access, ensuring users can efficiently manage their journeys with minimal effort while providing a seamless and engaging interaction at every stage."
               galleryId="gallery2"
@@ -97,7 +97,7 @@ export default function Projects() {
             <AllProjectLists
               img1={penaltyLogin}
               img2={penaltyPersonDetails}
-              titleName="UI/UX Design"
+              titleName="UI/UX Design with React Native"
               workName="Online Penalty Payment App"
               paragraph="The app was created to solve the problem of how to deal with car fines. Currently, paying fines is timeconsuming and might be confusing. Individuals sometimes have questions about their fines, including what they must pay, how to pay them, and the status of their payment. "
               galleryId="gallery3"
@@ -105,7 +105,7 @@ export default function Projects() {
             <AllProjectLists
               img1={penalty1}
               img2={penalty2}
-              titleName="UI/UX Design"
+              titleName="UI/UX Design with WordPress"
               workName="Online Penalty Payment Site"
               paragraph="The eventual goal of the project is to bridge the gap between car owners and authorities, introducing a digital solution that speeds up fine payments, reduces administrative costs associated with non-compliance as well elicits improved compliance behavior on traffic laws. "
               galleryId="gallery4"
@@ -113,7 +113,7 @@ export default function Projects() {
             <AllProjectLists
               img1={heritage1}
               img2={heritage2}
-              titleName="UI/UX Design"
+              titleName="Flutter Mobile App"
               workName="Heritage Tourism App"
               paragraph="The Heritage Tourism Guide app aims to enhance the travel experience by bringing attention to lesser-known cultural and historical sites, ensuring tourists discover hidden gems that are often overshadowed by mainstream attractions. The app will serve as a comprehensive platform for travelers seeking a deeper understanding of a region's culture, history, and traditions."
               galleryId="gallery5"
