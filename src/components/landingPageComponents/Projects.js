@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import AllProjectLists from "./AllProjectLists";
+import maletaxi1 from "../../assets/images/maletaxi-4.png";
+import maletaxi2 from "../../assets/images/maletaxi-6.png";
 import AgroConnect from "../../assets/images/AgroConnect for Farmers.png";
 import Farmer from "../../assets/images/Farmer.jpg";
 import publicTranport from "../../assets/images/Public Transport Tracker.png";
@@ -78,6 +80,16 @@ export default function Projects() {
         {/* UI/UX Design Projects */}
         {activeTab === 'uiux' && (
           <div className="text-white mt-5">
+            <AllProjectLists
+              img1={maletaxi1}
+              img2={maletaxi2}
+              titleName="Flutter Mobile App - Malé Taxi Line is a production ride-hailing platform for booking taxis in Malé, built for both iOS and Android."
+              workName="Malé Taxi Line"
+              paragraph="Developed the customer Flutter app for Malé Taxi Line (MTCC), covering registration, live map booking, fare estimates, vehicle selection, real-time driver tracking, trip history, receipts, and in-app communication. Also built the companion driver app and the React admin portal used by operations. The customer app is live on Google Play."
+              galleryId="gallery17"
+              liveUrl="https://play.google.com/store/apps/details?id=mv.mtcc.TaxiApp&hl=en"
+              liveLabel="Google Play"
+            />
             <AllProjectLists
               img1={AgroConnect}
               img2={Farmer}

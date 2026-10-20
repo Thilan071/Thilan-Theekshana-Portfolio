@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function AllProjectLists({ img1, img2, titleName, workName, paragraph, galleryId }) {
+export default function AllProjectLists({ img1, img2, titleName, workName, paragraph, galleryId, liveUrl, liveLabel }) {
   return (
     <article className="maain w-full block lg:w-auto 2xl:mt-14 py-2 border border-secondary-200 rounded-xl my-2 md:my-6 md:grid md:grid-cols-2 xl:my-8">
       
@@ -49,6 +49,30 @@ export default function AllProjectLists({ img1, img2, titleName, workName, parag
             />
           </svg>
         </div>
+        {liveUrl && (
+          <div className="flex justify-center items-center">
+            <a
+              className="text-primary_1 underline py-2 font-bold pr-2 md:text-xl md:py-4 lg:py-5"
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {liveLabel || "Live Demo"}
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              strokeWidth="1.5"
+              stroke="currentColor" 
+              className="w-5 h-5 sm:w-8 sm:h-8 lg:w-12 lg:h-12 text-primary_1">
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" 
+              />
+            </svg>
+          </div>
+        )}
       </div>
     </article>
   );

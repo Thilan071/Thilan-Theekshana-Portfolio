@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Lightbox from './Lightbox';
+import maletaxi1 from "../assets/images/maletaxi-1.png";
+import maletaxi2 from "../assets/images/maletaxi-2.png";
+import maletaxi3 from "../assets/images/maletaxi-3.png";
+import maletaxi4 from "../assets/images/maletaxi-4.png";
+import maletaxi5 from "../assets/images/maletaxi-5.png";
+import maletaxi6 from "../assets/images/maletaxi-6.png";
+import maletaxi7 from "../assets/images/maletaxi-7.png";
+import maletaxi8 from "../assets/images/maletaxi-8.png";
 import AgroConnect  from "../assets/images/AgroConnect for Farmers.png";
 import agroDescription from "../assets/images/agro description.png";
 import publicTranport from "../assets/images/Public Transport Tracker.png";
@@ -283,6 +291,25 @@ const imageSets = {
       },
     ]
   },
+  gallery17: {
+    images: [
+      maletaxi2,
+      maletaxi3,
+      maletaxi5,
+      maletaxi6,
+      maletaxi7,
+      maletaxi8,
+      maletaxi1,
+      maletaxi4,
+    ],
+    text: "Malé Taxi Line is live on Google Play:",
+    links: [
+      {
+        url: "https://play.google.com/store/apps/details?id=mv.mtcc.TaxiApp&hl=en",
+        label: "Play Store"
+      },
+    ]
+  },
 };
 
 export default function GalleryPage() {
@@ -310,7 +337,9 @@ export default function GalleryPage() {
             <span key={index}>
               {" "}
               <a 
-                href={link.url} 
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 underline">
                   {link.label}
               </a>
