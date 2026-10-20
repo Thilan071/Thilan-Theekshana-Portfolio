@@ -58,8 +58,8 @@ export default function Home() {
                                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                                 <a 
                                     className="pl-2 xl:text-2xl screen3xl:text-4xl" 
-                                    href={`${process.env.PUBLIC_URL}/Thilan_Theekshana_CV.pdf`} 
-                                    download="Thilan_Theekshana_CV.pdf"
+                                    href={`${process.env.PUBLIC_URL}/Thilan_Mallika_Arachchi_CV.pdf`} 
+                                    download="Thilan_Mallika_Arachchi_CV.pdf"
                                 >
                                     Download CV
                                 </a>
@@ -129,8 +129,8 @@ export default function Home() {
 
                         <a 
                             className="pl-2" 
-                            href={`${process.env.PUBLIC_URL}/Thilan_Theekshana_CV.pdf`} 
-                            download="Thilan_Theekshana_CV.pdf"
+                            href={`${process.env.PUBLIC_URL}/Thilan_Mallika_Arachchi_CV.pdf`} 
+                            download="Thilan_Mallika_Arachchi_CV.pdf"
                         >
                             Download CV
                         </a>
